@@ -1,0 +1,243 @@
+:root {
+  --text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --hero-title-color: #ffffff;
+  --hero-background-color: #2f303a;
+  --team-background-color: #f5f4fa;
+  --logo-black-color: #000000;
+  --footer-background-color: #2f303a;
+  --footer-email-tel: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  background-color: var(--hero-title-color);
+  color: var(--text-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+/* ========== COMPONENTS ========== */
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+[class*="link"] {
+  text-decoration: none;
+}
+
+[class*="list"] {
+  list-style: none;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+/* ========== END COMPONENTS ========== */
+
+/* ========== HEADER ========== */
+
+.navigation {
+  font-weight: 500;
+}
+
+.link-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: var(--logo-black-color);
+}
+.nav-list,
+.contact-link {
+  letter-spacing: 0.02em;
+}
+
+.nav-link {
+  color: var(--title-color);
+}
+
+.current,
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus,
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+  color: var(--accent-color);
+}
+
+.descript-list-title,
+.section-title {
+  font-weight: 700;
+  color: var(--title-color);
+}
+
+.contact-link {
+  font-weight: 500;
+
+  color: inherit;
+}
+
+/* ========== END HEADER ========== */
+
+/* ========== HERO ========== */
+.hero {
+  background-color: var(--hero-background-color);
+}
+
+.hero-title,
+.hero-button {
+  letter-spacing: 0.06em;
+  color: var(--hero-title-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  background-color: var(--accent-color);
+}
+/* ========== END HERO ========== */
+
+/* ========== OUR STRENGTHS ========== */
+
+.descript-list-title {
+  font-size: inherit;
+  text-transform: uppercase;
+}
+
+.descript-list-text {
+  line-height: 1.7;
+}
+
+/* ========== END OUR STRENGTHS ========== */
+
+/* ========== WHAT WE DO ========== */
+.section-title {
+  font-size: 36px;
+}
+/* ========== END WHAT WE DO ========== */
+
+/* ========== OUR TEAM ========== */
+.our-team {
+  background-color: var(--team-background-color);
+}
+
+.worker-name,
+.worker-position {
+  font-size: 16px;
+}
+
+.worker-name {
+  font-weight: 500;
+
+  color: var(--title-color);
+}
+
+.worker-position {
+  text-transform: capitalize;
+}
+
+.worker-info-item {
+  background-color: #ffffff;
+  width: 270px;
+  height: 368px;
+}
+/* ========== END OUR TEAM ========== */
+
+/* ========== FOOTER ========== */
+
+.footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer-logo-studio,
+.address {
+  color: var(--hero-title-color);
+}
+
+.address,
+.footer-contact-link {
+  line-height: 1.7;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.footer-contact-link {
+  color: var(--footer-email-tel);
+}
+
+/* ========== END FOOTER ========== */
+
+/* ========== PORTFOLIO ========== */
+
+.btn-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: inherit;
+  border-radius: 4px;
+  border: none;
+  color: var(--title-color);
+  background-color: var(--team-background-color);
+}
+
+.btn-item:focus,
+.btn-item:hover {
+  color: var(--hero-title-color);
+  background-color: var(--accent-color);
+}
+
+.working-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.working-type {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--text-color);
+}
+
+.working-item {
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+/* ========== END PORTFOLIO ========== */ ;
