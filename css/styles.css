@@ -9,6 +9,7 @@
   --footer-background-color: #2f303a;
   --footer-email-tel: rgba(255, 255, 255, 0.6);
   --portfolio-box-width: 370px;
+  --working-title: #212121;
 }
 
 body {
@@ -223,7 +224,7 @@ button {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--working-title);
 }
 
 .working-type {
